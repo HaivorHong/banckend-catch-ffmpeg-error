@@ -21,3 +21,9 @@ Installation and Operation
 2. Install Python dependencies:
    ```bash
    pip install -r requirements.txt
+
+## How to Use
+```
+   curl -X POST "http://localhost:8000/parse_video" \
+     -H "Content-Type: application/json" \
+     -d '{"video_url": "https://example.com/sample.mp4"}'
